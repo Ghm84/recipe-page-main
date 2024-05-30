@@ -135,7 +135,13 @@ li::marker {
     line-height: 1.2rem;
 }
 
-hr {
-    width: 35%;
-    opacity: 0.2rem;
+.hr-container {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.hr {
+    width: 20rem;
+    background-color: hsl(30, 10%, 34%);
+    border-color: hsl(0, 0%, 100%);
 }
