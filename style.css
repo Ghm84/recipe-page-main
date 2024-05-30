@@ -163,6 +163,8 @@ li::marker {
 
 .instructions-list {
     padding-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
 }
 
 .first, .second, .third, .fourth, .fifth, .sixth  {
@@ -171,7 +173,7 @@ li::marker {
     font-weight: 700;
     color: hsl(24, 5%, 18%);
     width: 0.25rem;
-    margin-left: 1.8rem;
+    margin-left: 1rem;
     line-height: 1rem;
 }
 
@@ -181,8 +183,58 @@ li::marker {
     font-weight: 400;
     color: hsl(30, 10%, 34%);
     margin-top: 1rem;
-    margin-left: 0.35rem; 
-    margin-right: 1rem;
-    line-height: 1.8rem;
+    margin-left: 0.45rem; 
+    line-height: 1.2rem;
 }
 
+.nutrition-title {
+    font-family: "Young Serif";
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+}
+
+.nutrition-info {
+    font-family: "Outfit";
+    font-size: 1.03rem;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    margin-left: 1.8rem;
+    margin-right: 1.7rem;
+    line-height: 1.5rem;
+}
+
+.no-bullets-ul {
+    list-style-type: none;
+}
+
+.nutrition-list {
+    font-family: "Outfit";
+    font-size: 1.03rem;
+    font-weight: 400;
+    
+    line-height: 3rem;
+}
+
+.detail {
+    font-family: "Outfit";
+    font-size: 1.03rem;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+}
+
+.amount {
+    font-family: "Outfit";
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+    margin-left: 5rem;
+}
+
+.nutrition-hr {
+    width: 19.7rem;
+    background-color: hsl(30, 10%, 34%);
+    border-color: hsl(0, 0%, 100%);
+    margin-left: -1.2rem;
+}
