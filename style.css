@@ -24,7 +24,7 @@ body {
 
 h1 {
     font-family: "Young Serif";
-    font-size: 2.35em;
+    font-size: 2.35rem;
     font-weight: 400;
     color: hsl(24, 5%, 18%);
     margin-top: 2.3rem;
@@ -34,7 +34,7 @@ h1 {
 
 .presentation {
     font-family: "Outfit";
-    font-size: 1.03em;
+    font-size: 1.03rem;
     font-weight: 400;
     color: hsl(30, 10%, 34%);
     margin-left: 1.5rem;
@@ -44,7 +44,7 @@ h1 {
 
 h2 {
     font-family: "Outfit";
-    font-size: 1.36em;
+    font-size: 1.36rem;
     font-weight: 600;
     color: hsl(332, 51%, 32%);
     margin-top: 3rem;
@@ -59,7 +59,7 @@ ul {
 .preparation-list {
     margin-left: 1.5rem;
     margin-right: 0.1rem;
-    margin-bottom: 1em;
+    margin-bottom: 1.25em;
 }
 
 li::marker {
@@ -77,7 +77,7 @@ li::marker {
 
 .time {
     font-family: "Outfit";
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 400;
     color: hsl(30, 10%, 34%);
     margin-top: 1rem;
@@ -87,7 +87,7 @@ li::marker {
 .minutes {
     display: block;
     font-family: "Outfit";
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 400;
     color: hsl(30, 10%, 34%);
     margin-left: 1.6rem;
@@ -110,4 +110,25 @@ li::marker {
     color: hsl(24, 5%, 18%);
     width: 0.25rem;
     margin-left: 1.5rem;
+}
+
+.ingredients-title {
+    font-family: "Young Serif";
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-top: 3rem;
+    margin-left: 1.8rem;
+}
+
+
+.ingredients-list {
+    font-family: "Outfit";
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    margin-left: 0.45rem;
+    margin-right: 0.1rem;
+    margin-bottom: 1rem;
+    padding-left: 1.8rem;
 }
