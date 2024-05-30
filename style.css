@@ -145,3 +145,44 @@ li::marker {
     background-color: hsl(30, 10%, 34%);
     border-color: hsl(0, 0%, 100%);
 }
+
+.instructions-title {
+    font-family: "Young Serif";
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+}
+
+.instructions-section ol li::marker {
+    font-family: "Outfit";
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.instructions-list {
+    padding-bottom: 1rem;
+}
+
+.first, .second, .third, .fourth, .fifth, .sixth  {
+    font-family: "Outfit";
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(24, 5%, 18%);
+    width: 0.25rem;
+    margin-left: 1.8rem;
+    line-height: 1rem;
+}
+
+.step-one, .step-two, .step-three, .step-four, .step-five, .step-six {
+    font-family: "Outfit";
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    margin-top: 1rem;
+    margin-left: 0.35rem; 
+    margin-right: 1rem;
+    line-height: 1.8rem;
+}
+
