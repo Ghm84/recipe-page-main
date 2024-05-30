@@ -52,23 +52,42 @@ h2 {
 }
 
 ul {
-    list-style: square;
+    list-style: disc;
     color: hsl(332, 51%, 32%);
 }
 
 li {
     font-family: "Outfit";
-    margin-left: 1em;
-    margin-right: 0.1em;
+    margin-left: 1.5rem;
+    margin-right: 0.1rem;
+    margin-bottom: 1em;
+}
+
+li::marker {
+    font-size: 0.7em;
 }
 
 .total {
     font-family: "Outfit";
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 600;
     color: hsl(24, 5%, 18%);
+    width: 0.25rem;
+    margin-left: 1.5rem;
 }
 
 .time {
+    font-family: "Outfit";
+    font-size: 1em;
+    font-weight: 400;
     color: hsl(30, 10%, 34%);
+    margin-left: 0.25em;
+    
+}
+
+.preparation {
+    font-family: "Outfit";
+    font-size: 1em;
+    font-weight: 600;
+    color: hsl(24, 5%, 18%);
 }
