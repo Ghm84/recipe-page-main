@@ -10,7 +10,7 @@ body {
 
 .container {
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 
 .omelette-img {
@@ -307,40 +307,46 @@ li::marker {
     body {
         background-color: hsl(30, 54%, 90%);
         overflow: auto;
+        padding-bottom: 7rem;
     }
 
     .card {
         background-color: hsl(330, 100%, 98%);
-        width: 55%;
-        height: 100%;
-        margin-top: 10rem;
-        margin-left: 25rem;
+        width: 52%;
+        height: 125%;
+        margin-top: 8rem;
+        margin-left: 22rem;
         border-radius: 1.5rem;
+        padding-top: 0.8rem;
+        padding-right: 1rem;
+        padding-bottom: 4rem;
     }
 
     .container {
         width: 100%;
         height: 100%;
         align-content: center;
+        padding-right: 4.2rem;
     }
 
     .omelette-img {
-        width: 85%;
-        height: 16%;
-        margin-top: 2rem;
-        margin-left: 3rem;
+        width: 91%;
+        height: 17%;
+        margin-top: 1.7rem;
+        margin-left: 2.5rem;
         border-radius: 1rem;
     }
 
     .description-section {
         width: 100%;
         height: 12%;
-        margin-left: 2rem;
+        margin-left: 1.2rem;
     }
 
     .dish-title {
         display: inline-block;
-        font-size: 2.6rem;
+        font-size: 2.5rem;
+        margin-top: 2rem;
     }
 
     .presentation {
@@ -354,8 +360,8 @@ li::marker {
     }
 
     .preparation-title {
-        margin-top: -1rem;
-        margin-left: 5.5rem;
+        margin-top: 0.1rem;
+        margin-left: 4.5rem;
     }
 
     .preparation-list {
@@ -370,23 +376,75 @@ li::marker {
     .ingredients-section {
         width: 90%;
         margin-top: 0.5rem;
-        margin-left: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .hr {
+        width: 41rem;
+        margin-left: 2.1rem;
     }
 
     .instructions-section {
-        width: 100%;
-        margin-left: 1.5rem;
+        width: 134%;
+        padding-right: 22rem;
+    }
+
+    .instructions-title {
+        margin-left: 2.8rem;
+    }
+
+    .instructions-section ol {
+        margin-left: 1.3rem;
+        margin-right: 1rem;
+    }
+
+    .first, .second, .third, .fourth, .fifth, .sixth {
+        margin-right: 0.2rem;
     }
 
     .step-one, .step-two, .step-three, .step-four, .step-five, .step-six {
         font-family: "Outfit";
-        font-size: 1rem;
+        font-size: 0.97rem;
         font-weight: 400;
         color: hsl(30, 10%, 34%);
         margin-top: 1rem;
-        margin-left: 0.51rem;
+        margin-left: 0.1rem;
+        margin-right: 11rem;
         word-spacing: 0.1rem;
-        line-height: 1.5rem;
+        line-height: 1.4rem;
     }
     
+    .nutrition-section {
+        width: 90%;
+        margin-left: 1rem;
+    }
+
+    .nutrition-title {
+        margin-top: 0.5rem;    
+    }
+
+    .nutrition-info {
+        width: 100%;
+        margin-top: 0.25rem;
+    }
+
+    .calories-amount {
+        margin-left: 11.2rem;
+    }
+
+    .nutrition-hr {
+        width: 40rem;
+    }
+
+    .carbs-amount {
+        margin-left: 11.2rem;
+    }
+
+    .protein-amount {
+        margin-left: 11.2rem;
+    }
+
+    .fat-amount {
+        margin-left: 11.2rem;
+    }
 }
