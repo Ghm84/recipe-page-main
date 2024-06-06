@@ -240,15 +240,27 @@ li::marker {
     line-height: 1.5rem;
 }
 
-.no-bullets-ul {
-    list-style-type: none;
+.nutrition-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
 }
 
-.nutrition-list {
-    font-family: "Outfit";
-    font-size: 1.03rem;
-    font-weight: 400;
-    line-height: 2rem;
+.nutrition-table td.detail {
+    border-bottom: 0.1rem solid hsl(30, 10%, 34%);
+    margin-top: 1rem;
+    margin-left: 21rem;
+}
+
+.nutrition-table td {
+    width: 90%;
+    margin-top: 2rem;
+    padding-left: 5rem;
+}
+
+.nutrition-table td:first-child {
+    padding-left: 3.8rem;
+    padding-bottom: 1rem;
 }
 
 .detail {
@@ -256,51 +268,24 @@ li::marker {
     font-size: 1.02rem;
     font-weight: 400;
     color: hsl(30, 10%, 34%);
+    margin-top: 2.1rem;
+    margin-left: 1rem;
+}
+
+.nutrition-table td.calories-amount,
+.nutrition-table td.carbs-amount,
+.nutrition-table td.protein-amount,
+.nutrition-table td.fat-amount {
+    display: inline-block;
+    font-family: "Outfit";
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
     margin-top: 0.1rem;
-    margin-left: 1.3rem;
-    padding-right: 3rem;
+    padding-right: 18rem;
+    padding-bottom: 1rem;
 }
 
-.calories-amount {
-    font-family: "Outfit";
-    font-size: 1rem;
-    font-weight: 700;
-    color: hsl(14, 45%, 36%);
-    padding-left: 2rem;
-    
-}
-
-.carbs-amount {
-    font-family: "Outfit";
-    font-size: 1rem;
-    font-weight: 700;
-    color: hsl(14, 45%, 36%);
-    padding-left: 3rem;
-}
-
-.protein-amount {
-    font-family: "Outfit";
-    font-size: 1rem;
-    font-weight: 700;
-    color: hsl(14, 45%, 36%);
-    padding-left: 2.5rem;
-}
-
-.fat-amount {
-    font-family: "Outfit";
-    font-size: 1rem;
-    font-weight: 700;
-    color: hsl(14, 45%, 36%);
-    padding-left: 4.3rem;
-}
-
-.nutrition-hr {
-    width: 19.7rem;
-    background-color: hsl(30, 10%, 34%);
-    border-color: hsl(0, 0%, 100%);
-    margin-top: 0.05rem;
-    margin-left: -1.2rem;
-}
 
 @media screen and (min-width: 900px) and (max-width: 1955px) {
 
