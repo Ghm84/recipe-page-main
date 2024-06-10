@@ -240,25 +240,17 @@ li::marker {
     line-height: 1.5rem;
 }
 
-.nutrition-table {
-    border-collapse: collapse;
+table {
     width: 100%;
-    margin-top: 1rem;
 }
 
-.nutrition-table td.detail {
-    border-bottom: 0.1rem solid hsl(30, 10%, 34%);
-    margin-top: 1rem;
-    margin-left: 21rem;
-}
-
-.nutrition-table td {
+table tr td {
     width: 90%;
     margin-top: 2rem;
     padding-left: 5rem;
 }
 
-.nutrition-table td:first-child {
+table td:first-child {
     padding-left: 3.8rem;
     padding-bottom: 1rem;
 }
@@ -268,24 +260,31 @@ li::marker {
     font-size: 1.02rem;
     font-weight: 400;
     color: hsl(30, 10%, 34%);
-    margin-top: 2.1rem;
+    margin-top: 2.3rem;
     margin-left: 1rem;
 }
 
-.nutrition-table td.calories-amount,
-.nutrition-table td.carbs-amount,
-.nutrition-table td.protein-amount,
-.nutrition-table td.fat-amount {
+.amount {
     display: inline-block;
     font-family: "Outfit";
     font-size: 1rem;
     font-weight: 700;
     color: hsl(14, 45%, 36%);
-    margin-top: 0.1rem;
-    padding-right: 18rem;
+    margin-top: 0.2rem;
+    padding-right: 23rem;
     padding-bottom: 1rem;
 }
 
+.nutrition-hr-container td {
+    padding-left: 5rem;
+}
+
+.nutrition-hr {
+    width: 20rem;
+    background-color: hsl(30, 10%, 34%);
+    border-color: hsl(0, 0%, 100%);
+    margin-left: -2.5rem;
+}
 
 @media screen and (min-width: 900px) and (max-width: 1955px) {
 
@@ -304,7 +303,7 @@ li::marker {
         border-radius: 1.5rem;
         padding-top: 0.8rem;
         padding-right: 1rem;
-        padding-bottom: 4rem;
+        padding-bottom: 5rem;
     }
 
     .container {
@@ -413,23 +412,18 @@ li::marker {
         margin-top: 0.25rem;
     }
 
-    .calories-amount {
-        margin-left: 11.2rem;
+    .detail {
+        margin-top: 2.2rem;
+    }
+
+    .amount {
+        margin-top: 0.2rem;
+        margin-left: 11rem;
     }
 
     .nutrition-hr {
-        width: 40rem;
+        width: 41rem;
+        margin-top: 0.25rem;
     }
 
-    .carbs-amount {
-        margin-left: 11.2rem;
-    }
-
-    .protein-amount {
-        margin-left: 11.2rem;
-    }
-
-    .fat-amount {
-        margin-left: 11.2rem;
-    }
 }
